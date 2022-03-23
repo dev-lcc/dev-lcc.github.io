@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4432f58e.chunk.css",
+    "main.js": "/static/js/main.fe521158.chunk.js",
+    "main.js.map": "/static/js/main.fe521158.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fda90155.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fda90155.js.map",
+    "static/js/2.7299dab7.chunk.js": "/static/js/2.7299dab7.chunk.js",
+    "static/js/2.7299dab7.chunk.js.map": "/static/js/2.7299dab7.chunk.js.map",
+    "static/css/3.df879eac.chunk.css": "/static/css/3.df879eac.chunk.css",
+    "static/js/3.f41d447f.chunk.js": "/static/js/3.f41d447f.chunk.js",
+    "static/js/3.f41d447f.chunk.js.map": "/static/js/3.f41d447f.chunk.js.map",
+    "static/css/4.e91a4b36.chunk.css": "/static/css/4.e91a4b36.chunk.css",
+    "static/js/4.7d070470.chunk.js": "/static/js/4.7d070470.chunk.js",
+    "static/js/4.7d070470.chunk.js.map": "/static/js/4.7d070470.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.220d2a25f902b61d8e29b1bf4eb20da7.js": "/precache-manifest.220d2a25f902b61d8e29b1bf4eb20da7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.df879eac.chunk.css.map": "/static/css/3.df879eac.chunk.css.map",
+    "static/css/4.e91a4b36.chunk.css.map": "/static/css/4.e91a4b36.chunk.css.map",
+    "static/css/main.4432f58e.chunk.css.map": "/static/css/main.4432f58e.chunk.css.map",
+    "static/js/2.7299dab7.chunk.js.LICENSE.txt": "/static/js/2.7299dab7.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/codeInLogo.webp": "/static/media/codeInLogo.47a7a717.webp",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.51cf7192.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.59389695.svg",
+    "static/media/googleAssistantLogo.webp": "/static/media/googleAssistantLogo.e79c6392.webp",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.52be3144.svg",
+    "static/media/nextuLogo.webp": "/static/media/nextuLogo.829ad0a1.webp",
+    "static/media/pwaLogo.webp": "/static/media/pwaLogo.ee62cb58.webp",
+    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.25018d29.webp",
+    "static/media/shift_logo.jpeg": "/static/media/shift_logo.55e92710.jpeg",
+    "static/media/skill.svg": "/static/media/skill.34409398.svg",
+    "static/media/TalkCard.scss": "/static/media/talksCardBack.13780cdd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fda90155.js",
+    "static/js/2.7299dab7.chunk.js",
+    "static/css/main.4432f58e.chunk.css",
+    "static/js/main.fe521158.chunk.js"
+  ]
+}
