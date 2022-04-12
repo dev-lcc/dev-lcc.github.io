@@ -105,7 +105,7 @@ const educationInfo = {
       schoolName: "St. Louis University",
       logo: require("./assets/images/slu_logo.jpeg"),
       subHeader: "Bachelor of Science in Information Technology",
-      duration: "June 2013 - April 2016",
+      duration: "June 2009 - April 2013",
       desc: "One of the team members who participated BPI Science Project Awards 2013",
       descBullets: [
         "Consistent Dean's Lister"
