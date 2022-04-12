@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d94e5065110084e848f2e8bb5d91a089",
+    "revision": "c610669c3c01678cb1051f9349d5b0fe",
     "url": "/index.html"
   },
   {
-    "revision": "60fb02c51f710eed5724",
+    "revision": "638828f23a47375b9b26",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "9f76cbed6fba5ada1e93",
+    "revision": "5ec52967616307700c08",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "d572dffafbd04c0790d7",
+    "revision": "07b78c830c0bb3b78814",
     "url": "/static/css/main.4432f58e.chunk.css"
   },
   {
-    "revision": "7d74735611c0b68e4b34",
-    "url": "/static/js/2.7299dab7.chunk.js"
+    "revision": "c1e7722808b20b7df6c7",
+    "url": "/static/js/2.b062cfd0.chunk.js"
   },
   {
     "revision": "408f8ade359af8695a328ed937291fdf",
-    "url": "/static/js/2.7299dab7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b062cfd0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "60fb02c51f710eed5724",
-    "url": "/static/js/3.f41d447f.chunk.js"
+    "revision": "638828f23a47375b9b26",
+    "url": "/static/js/3.40416046.chunk.js"
   },
   {
-    "revision": "9f76cbed6fba5ada1e93",
-    "url": "/static/js/4.7d070470.chunk.js"
+    "revision": "5ec52967616307700c08",
+    "url": "/static/js/4.7f222176.chunk.js"
   },
   {
-    "revision": "d572dffafbd04c0790d7",
-    "url": "/static/js/main.fe521158.chunk.js"
+    "revision": "07b78c830c0bb3b78814",
+    "url": "/static/js/main.56c757ec.chunk.js"
   },
   {
-    "revision": "7427d9cdd9e15e96b95c",
-    "url": "/static/js/runtime-main.fda90155.js"
+    "revision": "4d568084888e4d1bb5f3",
+    "url": "/static/js/runtime-main.ee5020b3.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "ef8d221be57ceccb71fa9d8e44ebda41",
+    "url": "/static/media/afterparty_logo.ef8d221b.png"
   },
   {
     "revision": "47a7a717679b640ceb1b05d38c480a61",
@@ -70,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
     "url": "/static/media/nextuLogo.829ad0a1.webp"
+  },
+  {
+    "revision": "9f511b100b969ff42453618ac22df64c",
+    "url": "/static/media/pouchnation_logo.9f511b10.jpeg"
   },
   {
     "revision": "ee62cb58630f29a6e6201b49d4c03728",
