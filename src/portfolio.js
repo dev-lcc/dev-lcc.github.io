@@ -3,43 +3,41 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+// import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+import splashAnimation from "./assets/lottie/androidDevHireMe";
 
 // Splash Screen
 
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 2000 // Set animation duration as per your animation
+  duration: 3000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
-
 const illustration = {
   animated: true // Set to false to use static SVG
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+  username: "Lawrence Cendaña",
+  title: "Lawrence C. Cendaña",
+  subTitle: emoji("I've dedicated most of my career as a native mobile application developer, with more than 8 years in Android Application development. I've worked with several industries such as Events Management, Dating Apps, and Property & Asset Management Technologies."),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ugKc0DVYqaGP_2UkKi6I9drk7a68TI2c/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/dev-lcc/",
+  linkedin: "https://www.linkedin.com/in/lawrence-cendana-51748989//",
+  gmail: "lawrence.cendana@gmail.com",
+  gitlab: "https://gitlab.com/dev-lcc",
+//  facebook: "https://www.facebook.com/XXX",
+//  medium: "https://medium.com/@XXX",
+  stackoverflow: "https://stackoverflow.com/users/11419056/lawrence-cenda%c3%b1a",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,16 +46,14 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Android Mobile Application Developer",
+  subTitle: "",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Kotlin Programming Language."),
+    emoji("⚡ Handles concurrency using Coroutines and Flow."),
+    emoji("⚡ Writes code that adheres to Clean Code Architecture using modern MVVM."),
+    emoji("⚡ Has relevant experience following Test-Driven Development(TDD) and Data Driven Design."),
+    emoji("⚡ Integration of third party services such as Firebase/ GraphQL"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,56 +61,36 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "kotlin",
+      fontAwesomeClassname: "fab fa-kickstarter-k"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github-square"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "iOS",
+      fontAwesomeClassname: "fab fa-apple"
     },
     {
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
     },
     {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +102,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "St. Louis University",
+      logo: require("./assets/images/slu_logo.jpeg"),
+      subHeader: "Bachelor of Science in Information Technology",
+      duration: "June 2013 - April 2016",
+      desc: "One of the team members who participated BPI Science Project Awards 2013",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Consistent Dean's Lister"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -150,18 +117,18 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "System Design and Architecture", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Programming(Android Application Development(UI & Business Logic))",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Backend",
       progressPercentage: "60%"
     }
   ],
@@ -174,29 +141,74 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Android Application Developer",
+      company: "Inform Group Pty Ltd",
+      companylogo: require("./assets/images/inform_logo.jpeg"),
+      date: "June 2019 – Present",
+      desc: "One of the developers who took over the mobile application development of Helium and RSVP Dating Apps.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Clean Code Architecture using MVVM",
+        "Used Koin Dependency Injection to manage dependencies across the project.",
+        "Refactored to multiple modules(app, data, domain, commons, etc.) to improve build times and advocate code seggregation.",
+        "Implement Unit Testing on each ViewModel class",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Freelance iOS Application Developer",
+      company: "Social Network Fashion Media",
+      companylogo: require("./assets/images/shift_logo.jpeg"),
+      date: "April 2020 – Dec 2021",
+      desc: "One of the developers who led the development of SHIFT SWIM, a fashion app that showcases a bikini fashion channel where you can watch the latest designer creations, stunning bikinis modeled by the world's most beautiful women in exotic locations.",
+      descBullets: [
+        "The iOS app is written using Swift 5.0 with Combine framework to achieve functional and reactive style of programming.",
+        "Clean Code Architecture using MVVM",
+        "Used Swinject Framework to manage dependencies across the project.",
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Android SDK Developer",
+      company: "Sportstalk 24/7",
+      companylogo: require("./assets/images/sportstalk_logo.jpeg"),
+      date: "May 2020 – May 2021",
+      desc: "Took part in the development of Sportstalk SDK for Android using Kotlin Programming language. The library is composed of Kotlin Coroutine and RxJava implementation modules."
+    },
+    {
+      role: "Senio Mobile Application Developer",
+      company: "Towa Technologies",
+      companylogo: require("./assets/images/towa_logo.jpeg"),
+      date: "May 2018 – May 2019",
+      desc: "One of the pioneer contributors of the development of 2 Android Applications primarily using Google's Firebase SDK, Architecture Components Framework, and Kotlin as programing language of choice.",
+      descBullets: [
+        "Clean Code Architecture using MVVM",
+        "Used Dagger2 Dependency Injection to manage dependencies across the project.",
+        "Refactored to multiple modules(app, data, domain, commons, etc.) to improve build times and advocate code seggregation.",
+        "Implement Unit Testing on each ViewModel class",
+      ]
+    },
+    {
+      role: "Project Lead/Fullstack Mobile Application Developer",
+      company: "Hello Media Ltd.",
+      companylogo: require("./assets/images/afterparty_logo.png"),
+      date: "September 2017 – April 2018",
+      desc: "",
+      descBullets: [
+        "Managed a team of four to deliver a new version of Afterparty app(android/iOS), one-stop app for events that also connects people and event goers thru matchmaking, and CMS(Content Management System) which allows event organizers and artists to manage their events, keep track of their followers, create their own contests, and other administrative features within 2 months.",
+        "Acted as a fullstack developer jumping from android app development(primary skill), to backend server(Firebase Functions) using NodeJS Typescript, to setting up Firebase Firestore(document-based) Database Structure, collaborate on iOS app development with a freelancer, collaborate on CMS development with Web Developers mostly on backend server dependencies, to managing task deliverables and sprints with the QA making sure that everything is on-track.",
+      ]
+    },
+    {
+      role: "Android Application Developer",
+      company: "PouchNATION",
+      companylogo: require("./assets/images/pouchnation_logo.jpeg"),
+      date: "January 2016 – August 2017",
+      desc: "",
+      descBullets: [
+        "RFID/NFC technologies such as the use of Mifare Ultralight C, Mifare Ultralight EV1, and Mifare DESFire EV2. Also familiar with standalone NFC/RFID hardware such as ACS 1222L Smart Card Reader and Shenzen SmartCard Tech./T80 POS Terminal.",
+        "Collaborated with API design and structure to be able to communicate mobile and backend system.",
+        "Refactored the existing mobile app codebase to optimize performance and apply best coding practices and code patterns.",
+        "Worked with operations during events using the mobile application which provides cashless payment experience and access control capabilities.",
+        "Collaborated with the development of table top readers, similar to how the company's android application works, using external smart card reader.",
+      ]
     }
   ]
 };
@@ -206,7 +218,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -239,7 +251,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -297,7 +309,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -321,7 +333,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -340,7 +352,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -353,22 +365,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  title: emoji("Reach me out 👌"),
+  subtitle: emoji("I'm open for Freelance Projects."),
+  number: "(+63)97******60",
+  email_address: "lawrence.cendana@gmail.com",
+  display: true
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
