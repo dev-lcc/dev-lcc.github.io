@@ -22,9 +22,9 @@ const illustration = {
 const greeting = {
   username: "Lawrence Cendaña",
   title: "Lawrence C. Cendaña",
-  subTitle: emoji("I've dedicated most of my career as a native mobile application developer, with more than 8 years in Android Application development. I've worked with several industries such as Events Management, Dating Apps, and Property & Asset Management Technologies."),
+  subTitle: emoji("I've dedicated most of my career as a native mobile application developer, with more than 8 years in Android Application development. I've worked with several tech and startup industries such as Events Management, Dating Apps, and Property & Asset Management Technologies."),
   resumeLink:
-    "https://drive.google.com/file/d/1ugKc0DVYqaGP_2UkKi6I9drk7a68TI2c/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1pp9xhUX6qruPn5mVXQtClujlnYyDnbHX/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,52 +46,98 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Android Mobile Application Developer",
-  subTitle: "",
   skills: [
-    emoji("⚡ Kotlin Programming Language."),
-    emoji("⚡ Handles concurrency using Coroutines and Flow."),
-    emoji("⚡ Writes code that adheres to Clean Code Architecture using modern MVVM."),
-    emoji("⚡ Has relevant experience following Test-Driven Development(TDD) and Data Driven Design."),
-    emoji("⚡ Integration of third party services such as Firebase/ GraphQL"),
-  ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
-  softwareSkills: [
     {
-      skillName: "android",
-      fontAwesomeClassname: "fab fa-android"
+      title: "Android Application Developer",
+      subTitle: "",
+      bullets: [
+        emoji("⚡ Kotlin Programming Language."),
+        emoji("⚡ Handles concurrency using Coroutines and Flow."),
+        emoji("⚡ Writes code that adheres to Clean Code Architecture using modern MVVM."),
+        emoji("⚡ Use of 3rd party library integration such as Firebase SDK, GraphQL Apollo Client, Cloudinary SDK, and more."),
+        emoji("⚡ Knowledgeable with Retrofit and OkHttp for REST API implementation."),
+        emoji("⚡ Extensive knowledge in using a wide variety of Jetpack Components(i.e. Navigation, Room, WorkManager, Lifecycle, ViewModel, etc.)."),
+        emoji("⚡ Has relevant experience following Test-Driven Development(TDD) and Data Driven Design."),
+      ],
+      /* Make Sure to include correct Font Awesome Classname to view your icon https://fontawesome.com/icons?d=gallery */
+      softwareSkills: [
+        {
+          skillName: "Android",
+          fontAwesomeClassname: "fab fa-android"
+        },
+        {
+          skillName: "Kotlin",
+          fontAwesomeClassname: "fab fa-kickstarter-k"
+        },
+        {
+          skillName: "GraphQL",
+          fontAwesomeClassname: "fa-solid fa-atom"
+        },
+        {
+          skillName: "Jetpack",
+          fontAwesomeClassname: "fa-solid fa-rocket"
+        },
+        {
+          skillName: "Gradle",
+          fontAwesomeClassname: "fa-solid fa-republican"
+        },
+        {
+          skillName: "Github",
+          fontAwesomeClassname: "fab fa-github-square"
+        },
+        {
+          skillName: "Firebase",
+          fontAwesomeClassname: "fas fa-fire"
+        }
+      ],
     },
-    {
-      skillName: "kotlin",
-      fontAwesomeClassname: "fab fa-kickstarter-k"
-    },
-    {
-      skillName: "github",
-      fontAwesomeClassname: "fab fa-github-square"
-    },
-    {
-      skillName: "iOS",
-      fontAwesomeClassname: "fab fa-apple"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    }
+    /**
+    * TODO:: Toggle iOS Skill Highlight
+    */
+    // {
+    //   title: "iOS Application Developer",
+    //   subTitle: "",
+    //   bullets: [
+    //     emoji("⚡ Swift Programming Language."),
+    //     emoji("⚡ Experience with UI Development using UIKit and/or SwiftUI"),
+    //     emoji("⚡ Handles concurrency using DispatchQueue, Task, Combine, and/or Async/Await framework."),
+    //     emoji("⚡ Writes code that adheres to Clean Code Architecture using modern MVVM."),
+    //     emoji("⚡ Knowledgeable with Alamofire and URLSession for REST API implementation."),
+    //     emoji("⚡ Extensive knowledge using Firebase SDK."),
+    //     emoji("⚡ Familiar with Test-Driven Development(TDD) using XCTest framework."),
+    //   ],
+    //   /* Make Sure to include correct Font Awesome Classname to view your icon https://fontawesome.com/icons?d=gallery */
+    //   softwareSkills: [
+    //     {
+    //       skillName: "iOS",
+    //       fontAwesomeClassname: "fab fa-apple"
+    //     },
+    //     {
+    //       skillName: "Swift",
+    //       fontAwesomeClassname: "fab fa-swift"
+    //     },
+    //     {
+    //       skillName: "UIKit",
+    //       fontAwesomeClassname: "fa-brands fa-uikit"
+    //     },
+    //     {
+    //       skillName: "SwiftUI",
+    //       fontAwesomeClassname: "fab fa-swift"
+    //     },
+    //     {
+    //       skillName: "Cocoapods",
+    //       fontAwesomeClassname: "fa-solid fa-c"
+    //     },
+    //     {
+    //       skillName: "Github",
+    //       fontAwesomeClassname: "fab fa-github-square"
+    //     },
+    //     {
+    //       skillName: "Firebase",
+    //       fontAwesomeClassname: "fas fa-fire"
+    //     }
+    //   ],
+    // },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -145,69 +191,89 @@ const workExperiences = {
       company: "Inform Group Pty Ltd",
       companylogo: require("./assets/images/inform_logo.jpeg"),
       date: "June 2019 – Present",
-      desc: "One of the developers who took over the mobile application development of Helium and RSVP Dating Apps.",
+      desc: "Worked on RSVP dating and Helium dating apps for Australian client.",
       descBullets: [
-        "Clean Code Architecture using MVVM",
-        "Used Koin Dependency Injection to manage dependencies across the project.",
-        "Refactored to multiple modules(app, data, domain, commons, etc.) to improve build times and advocate code seggregation.",
-        "Implement Unit Testing on each ViewModel class",
+        "100% Kotlin source code",
+        "Functional and Reactive Programming using Kotlin Coroutines and Flow",
+        "MVVM Clean Code Architecture - Using Coroutine StateFlow and SharedFlow to manage ViewState and Side-effects",
+        "Android Jetpack - Navigation, WorkManager, Room, Lifecycle, ViewModel",
+        "Firebase, GraphQL, Retrofit, OkHTTP, SocketIO, Cloudinary SDK",
+        "Dependency Injection: Koin 2.x",
+        "Test-Driven-Development: JUnit 4 with RoboElectric 4.x",
       ]
     },
+    // {
+    //   role: "Freelance IOS Application Developer",
+    //   company: "Social Network Fashion Media",
+    //   companylogo: require("./assets/images/shift_logo.jpeg"),
+    //   date: "Mar 2021 – October 2022",
+    //   desc: "One of pioneer contributors of SHIFT SWIM iOS app, a fashion app that showcases a bikini fashion channel where you can watch the latest designer creations, stunning bikinis modeled by the world's most beautiful women in exotic locations.",
+    //   descBullets: [
+    //     "100% Swift 5 source code with partial migration to SwiftUI",
+    //     "Functional and Reactive Programming using Combine and Async/Await framework",
+    //     "MVVM Clean Code Architecture",
+    //     "Firebase, Alamofire for handling REST API, Sportstalk SDK, Cloudinary SDK",
+    //     "Dependency Injection: Swinject",
+    //     "Test-Driven-Development: XCTest",
+    //   ]
+    // },
+    // {
+    //   role: "Freelance Android SDK Developer",
+    //   company: "Sportstalk 24/7",
+    //   companylogo: require("./assets/images/sportstalk_logo.jpeg"),
+    //   date: "May 2020 – May 2021",
+    //   desc: "Took part in the development of Sportstalk SDK which provides conversation solutions to the entertainment and sports industries. We enable high-profile brands to engage with customers, fans, and influencers to build loyalty while protecting brand interests and messaging.",
+    //   descBullets: [
+    //     "100% Kotlin source code",
+    //     "Created and published SDK via jitpack.io with multiple artifacts to choose from:",
+    //     "Sportstalk SDK artifact using Kotlin Coroutines and Flow",
+    //     "Sportstalk SDK artifact using RxJava 2.0",
+    //     "Documentation: Dokka Gradle Plugin and sphinx-doc",
+    //     "Retrofit, OkHTTP",
+    //     "Dependency Injection: Manual",
+    //     "Test-Driven-Development: JUnit 4",
+    //   ]
+    // },
     {
-      role: "Freelance iOS Application Developer",
-      company: "Social Network Fashion Media",
-      companylogo: require("./assets/images/shift_logo.jpeg"),
-      date: "April 2020 – Dec 2021",
-      desc: "One of the developers who led the development of SHIFT SWIM, a fashion app that showcases a bikini fashion channel where you can watch the latest designer creations, stunning bikinis modeled by the world's most beautiful women in exotic locations.",
-      descBullets: [
-        "The iOS app is written using Swift 5.0 with Combine framework to achieve functional and reactive style of programming.",
-        "Clean Code Architecture using MVVM",
-        "Used Swinject Framework to manage dependencies across the project.",
-      ]
-    },
-    {
-      role: "Android SDK Developer",
-      company: "Sportstalk 24/7",
-      companylogo: require("./assets/images/sportstalk_logo.jpeg"),
-      date: "May 2020 – May 2021",
-      desc: "Took part in the development of Sportstalk SDK for Android using Kotlin Programming language. The library is composed of Kotlin Coroutine and RxJava implementation modules."
-    },
-    {
-      role: "Senio Mobile Application Developer",
-      company: "Towa Technologies",
+      role: "Senior Android Application Developer",
+      company: "TOWA Technologies Ltd",
       companylogo: require("./assets/images/towa_logo.jpeg"),
       date: "May 2018 – May 2019",
-      desc: "One of the pioneer contributors of the development of 2 Android Applications primarily using Google's Firebase SDK, Architecture Components Framework, and Kotlin as programing language of choice.",
+      desc: "One of pioneer contributors of TOWA internal Android application and TOWA commercial app.",
       descBullets: [
-        "Clean Code Architecture using MVVM",
-        "Used Dagger2 Dependency Injection to manage dependencies across the project.",
-        "Refactored to multiple modules(app, data, domain, commons, etc.) to improve build times and advocate code seggregation.",
-        "Implement Unit Testing on each ViewModel class",
+        "100% Kotlin source code",
+        "Functional and Reactive Programming using Rx2Java",
+        "MVVM Clean Code Architecture",
+        "Android Jetpack - Navigation, WorkManager, Room, Lifecycle, ViewModel",
+        "Firebase, Retrofit, OkHTTP, Cloudinary SDK, SendBird SDK",
+        "Dependency Injection: Dagger 2",
+        "Test-Driven-Development: JUnit 4 with RoboElectric 4.x",
       ]
     },
     {
-      role: "Project Lead/Fullstack Mobile Application Developer",
+      role: "Project Lead/Fullstack Mobile Application(Android/iOS) Developer",
       company: "Hello Media Ltd.",
       companylogo: require("./assets/images/afterparty_logo.png"),
       date: "September 2017 – April 2018",
-      desc: "",
+      desc: "Managed a team of four to deliver a new version of Afterparty app(android/iOS), one-stop app for events that also connects people and event goers thru matchmaking, and CMS(Content Management System) which allows event organizers and artists to manage their events, keep track of their followers, create their own contests, and other administrative features.",
       descBullets: [
-        "Managed a team of four to deliver a new version of Afterparty app(android/iOS), one-stop app for events that also connects people and event goers thru matchmaking, and CMS(Content Management System) which allows event organizers and artists to manage their events, keep track of their followers, create their own contests, and other administrative features within 2 months.",
-        "Acted as a fullstack developer jumping from android app development(primary skill), to backend server(Firebase Functions) using NodeJS Typescript, to setting up Firebase Firestore(document-based) Database Structure, collaborate on iOS app development with a freelancer, collaborate on CMS development with Web Developers mostly on backend server dependencies, to managing task deliverables and sprints with the QA making sure that everything is on-track.",
+        "100% Kotlin source code",
+        "Functional and Reactive Programming using Rx2Java",
+        "MVP Clean Code Architecture",
+        "Firebase, GraphQL, Retrofit, OkHTTP, Cloudinary SDK",
+        "Dependency Injection: Dagger 2",
       ]
     },
     {
-      role: "Android Application Developer",
+      role: "Software Engineer",
       company: "PouchNATION",
       companylogo: require("./assets/images/pouchnation_logo.jpeg"),
       date: "January 2016 – August 2017",
-      desc: "",
+      desc: "Developed and maintained company's proprietary android application. The application features the use of RFID/NFC Technology.",
       descBullets: [
-        "RFID/NFC technologies such as the use of Mifare Ultralight C, Mifare Ultralight EV1, and Mifare DESFire EV2. Also familiar with standalone NFC/RFID hardware such as ACS 1222L Smart Card Reader and Shenzen SmartCard Tech./T80 POS Terminal.",
-        "Collaborated with API design and structure to be able to communicate mobile and backend system.",
-        "Refactored the existing mobile app codebase to optimize performance and apply best coding practices and code patterns.",
-        "Worked with operations during events using the mobile application which provides cashless payment experience and access control capabilities.",
-        "Collaborated with the development of table top readers, similar to how the company's android application works, using external smart card reader.",
+        "Java programming language",
+        "Volley(REST API), SQLite(Local Database)",
+        "Using Android built-in NFC Framework to support Mifare Ultralight C and Mifare DesFire EV2",
       ]
     }
   ]
@@ -224,92 +290,56 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Freelance Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/shift_logo.jpeg"),
+      projectName: "Shift Swim ~ IOS Application Developer",
+      projectDesc: "One of pioneer contributors of SHIFT SWIM iOS app, a fashion app that showcases a bikini fashion channel where you can watch the latest designer creations, stunning bikinis modeled by the world's most beautiful women in exotic locations.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View on Appstore",
+          url: "https://apps.apple.com/us/app/shift-swim/id1560375556"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/sportstalk_logo.jpeg"),
+      projectName: "Sportstalk 24/7 ~ Android SDK Developer",
+      projectDesc: "Took part in the development of Sportstalk SDK which provides conversation solutions to the entertainment and sports industries. We enable high-profile brands to engage with customers, fans, and influencers to build loyalty while protecting brand interests and messaging.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.sportstalk247.com/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
+  title: emoji("Certifications 🏆 "),
+  // subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "The Complete 2021 Flutter Development Bootcamp with Dart",
+      // subtitle: "",
+      image: require("./assets/images/certifications_udemy_2021_flutter_development.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://www.udemy.com/certificate/UC-056b0d20-0edc-4a4a-a670-d7ac9a5b8ae4/"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section

@@ -62,6 +62,11 @@ export default function Greeting() {
             )}
           </div>
         </div>
+
+        <Fade left duration={1000}>
+          <div className="greetings-border"></div>
+        </Fade>
+
       </div>
     </Fade>
   );
