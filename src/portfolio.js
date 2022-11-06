@@ -94,50 +94,50 @@ const skillsSection = {
     /**
     * TODO:: Toggle iOS Skill Highlight
     */
-    // {
-    //   title: "iOS Application Developer",
-    //   subTitle: "",
-    //   bullets: [
-    //     emoji("⚡ Swift Programming Language."),
-    //     emoji("⚡ Experience with UI Development using UIKit and/or SwiftUI"),
-    //     emoji("⚡ Handles concurrency using DispatchQueue, Task, Combine, and/or Async/Await framework."),
-    //     emoji("⚡ Writes code that adheres to Clean Code Architecture using modern MVVM."),
-    //     emoji("⚡ Knowledgeable with Alamofire and URLSession for REST API implementation."),
-    //     emoji("⚡ Extensive knowledge using Firebase SDK."),
-    //     emoji("⚡ Familiar with Test-Driven Development(TDD) using XCTest framework."),
-    //   ],
-    //   /* Make Sure to include correct Font Awesome Classname to view your icon https://fontawesome.com/icons?d=gallery */
-    //   softwareSkills: [
-    //     {
-    //       skillName: "iOS",
-    //       fontAwesomeClassname: "fab fa-apple"
-    //     },
-    //     {
-    //       skillName: "Swift",
-    //       fontAwesomeClassname: "fab fa-swift"
-    //     },
-    //     {
-    //       skillName: "UIKit",
-    //       fontAwesomeClassname: "fa-brands fa-uikit"
-    //     },
-    //     {
-    //       skillName: "SwiftUI",
-    //       fontAwesomeClassname: "fab fa-swift"
-    //     },
-    //     {
-    //       skillName: "Cocoapods",
-    //       fontAwesomeClassname: "fa-solid fa-c"
-    //     },
-    //     {
-    //       skillName: "Github",
-    //       fontAwesomeClassname: "fab fa-github-square"
-    //     },
-    //     {
-    //       skillName: "Firebase",
-    //       fontAwesomeClassname: "fas fa-fire"
-    //     }
-    //   ],
-    // },
+     {
+       title: "iOS Application Developer",
+       subTitle: "",
+       bullets: [
+         emoji("⚡ Swift Programming Language."),
+         emoji("⚡ Experience with UI Development using UIKit and/or SwiftUI"),
+         emoji("⚡ Handles concurrency using DispatchQueue, Task, Combine, and/or Async/Await framework."),
+         emoji("⚡ Writes code that adheres to Clean Code Architecture using modern MVVM."),
+         emoji("⚡ Knowledgeable with Alamofire and URLSession for REST API implementation."),
+         emoji("⚡ Extensive knowledge using Firebase SDK."),
+         emoji("⚡ Familiar with Test-Driven Development(TDD) using XCTest framework."),
+       ],
+       /* Make Sure to include correct Font Awesome Classname to view your icon https://fontawesome.com/icons?d=gallery */
+       softwareSkills: [
+         {
+           skillName: "iOS",
+           fontAwesomeClassname: "fab fa-apple"
+         },
+         {
+           skillName: "Swift",
+           fontAwesomeClassname: "fab fa-swift"
+         },
+         {
+           skillName: "UIKit",
+           fontAwesomeClassname: "fa-brands fa-uikit"
+         },
+         {
+           skillName: "SwiftUI",
+           fontAwesomeClassname: "fab fa-swift"
+         },
+         {
+           skillName: "Cocoapods",
+           fontAwesomeClassname: "fa-solid fa-c"
+         },
+         {
+           skillName: "Github",
+           fontAwesomeClassname: "fab fa-github-square"
+         },
+         {
+           skillName: "Firebase",
+           fontAwesomeClassname: "fas fa-fire"
+         }
+       ],
+     },
   ],
   display: true // Set false to hide this section, defaults to true
 };
