@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c34cdbe2aab765f0ae88168176f88a0b",
+    "revision": "b17d20effb01bcef7cf752f24a346ad5",
     "url": "/index.html"
   },
   {
-    "revision": "11b8adfef65ed49698d9",
+    "revision": "ff84851fb7949941475f",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "c387700bb956a6d4978d",
+    "revision": "5c11284857659f21f8dc",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "abb32a97bccfde1bce1f",
-    "url": "/static/css/main.a24c7f19.chunk.css"
+    "revision": "8fef31a78318fced887a",
+    "url": "/static/css/main.21c71a8e.chunk.css"
   },
   {
-    "revision": "ca9ed073956f3a3629c1",
-    "url": "/static/js/2.4362fad5.chunk.js"
+    "revision": "6cfcc18d33df110f0d86",
+    "url": "/static/js/2.4191943c.chunk.js"
   },
   {
     "revision": "408f8ade359af8695a328ed937291fdf",
-    "url": "/static/js/2.4362fad5.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.4191943c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "11b8adfef65ed49698d9",
-    "url": "/static/js/3.e7c351d1.chunk.js"
+    "revision": "ff84851fb7949941475f",
+    "url": "/static/js/3.86666c1c.chunk.js"
   },
   {
-    "revision": "c387700bb956a6d4978d",
-    "url": "/static/js/4.38256f68.chunk.js"
+    "revision": "5c11284857659f21f8dc",
+    "url": "/static/js/4.f4bb545a.chunk.js"
   },
   {
-    "revision": "abb32a97bccfde1bce1f",
-    "url": "/static/js/main.88d60070.chunk.js"
+    "revision": "8fef31a78318fced887a",
+    "url": "/static/js/main.a193d8a8.chunk.js"
   },
   {
-    "revision": "33434a3fe0cc05dd4a9a",
-    "url": "/static/js/runtime-main.bedd543a.js"
+    "revision": "0c65188df3c696eea3bc",
+    "url": "/static/js/runtime-main.a47aad7e.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -72,8 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pouchnation_logo.9f511b10.jpeg"
   },
   {
-    "revision": "55e927108a2c48780a8eb711f3eafe11",
-    "url": "/static/media/shift_logo.55e92710.jpeg"
+    "revision": "9a47772f572069e5f798880a9c0fa8da",
+    "url": "/static/media/shift_app_android.9a47772f.png"
+  },
+  {
+    "revision": "184049b1d41aac03c6e13455c9ed87de",
+    "url": "/static/media/shift_app_ios.184049b1.webp"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
