@@ -22,9 +22,9 @@ const illustration = {
 const greeting = {
   username: "Lawrence Cendaña",
   title: "Lawrence C. Cendaña",
-  subTitle: emoji("I've dedicated most of my career as a native mobile application developer, with more than 8 years in Android Application development. I've worked with several tech and startup industries such as Events Management, Dating Apps, and Property & Asset Management Technologies."),
+  subTitle: emoji("I've dedicated most of my career as a native mobile application developer, with more than 9 years in Android Application development. I've worked with several tech and startup industries such as Events Management, Dating Apps, and Property & Asset Management Technologies."),
   resumeLink:
-    "https://drive.google.com/file/d/1pp9xhUX6qruPn5mVXQtClujlnYyDnbHX/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1hypD2_wqtPcP-AQ6R5d7DWCdovYNOERt/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -51,44 +51,45 @@ const skillsSection = {
       title: "Android Application Developer",
       subTitle: "",
       bullets: [
-        emoji("⚡ Kotlin Programming Language."),
-        emoji("⚡ Handles concurrency using Coroutines and Flow."),
-        emoji("⚡ Writes code that adheres to Clean Code Architecture using modern MVVM."),
-        emoji("⚡ Use of 3rd party library integration such as Firebase SDK, GraphQL Apollo Client, Cloudinary SDK, and more."),
-        emoji("⚡ Knowledgeable with Retrofit and OkHttp for REST API implementation."),
-        emoji("⚡ Extensive knowledge in using a wide variety of Jetpack Components(i.e. Navigation, Room, WorkManager, Lifecycle, ViewModel, etc.)."),
-        emoji("⚡ Has relevant experience following Test-Driven Development(TDD) and Data Driven Design."),
+        emoji("➡️ Kotlin Programming Language."), // ⚡
+        emoji("➡️ Handles concurrency using Coroutines and Flow."),
+        emoji("➡️ Writes code that adheres to Clean Code Architecture using modern MVVM."),
+        emoji("➡️ Use of 3rd party library integration such as Firebase SDK, GraphQL Apollo Client, Cloudinary SDK, and more."),
+        emoji("➡️ Knowledgeable with KTor, Retrofit, and OkHttp for REST API implementation."),
+        emoji("➡️ Extensive knowledge in using a wide variety of AndroidX Jetpack Components(i.e. Navigation, Room, WorkManager, Lifecycle, ViewModel, etc.)."),
+        emoji("➡️ Experience with UI development using AndroidX components and/or Jetpack Compose."),
+        emoji("➡️ Has relevant experience following Test-Driven Development(TDD) and Data Driven Design."),
       ],
       /* Make Sure to include correct Font Awesome Classname to view your icon https://fontawesome.com/icons?d=gallery */
       softwareSkills: [
-        {
-          skillName: "Android",
-          fontAwesomeClassname: "fab fa-android"
-        },
-        {
-          skillName: "Kotlin",
-          fontAwesomeClassname: "fab fa-kickstarter-k"
-        },
-        {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "fa-solid fa-atom"
-        },
-        {
-          skillName: "Jetpack",
-          fontAwesomeClassname: "fa-solid fa-rocket"
-        },
-        {
-          skillName: "Gradle",
-          fontAwesomeClassname: "fa-solid fa-republican"
-        },
-        {
-          skillName: "Github",
-          fontAwesomeClassname: "fab fa-github-square"
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "fas fa-fire"
-        }
+        // {
+        //   skillName: "Android",
+        //   fontAwesomeClassname: "fab fa-android"
+        // },
+        // {
+        //   skillName: "Kotlin",
+        //   fontAwesomeClassname: "fab fa-kickstarter-k"
+        // },
+        // {
+        //   skillName: "GraphQL",
+        //   fontAwesomeClassname: "fa-solid fa-g"//"fa-solid fa-atom"
+        // },
+        // {
+        //   skillName: "Jetpack",
+        //   fontAwesomeClassname: "fa-brands fa-space-awesome"//fa-light fa-rocket"
+        // },
+        // {
+        //   skillName: "Gradle",
+        //   fontAwesomeClassname: "fa-brands fa-android"//"fa-regular fa-republican"
+        // },
+        // {
+        //   skillName: "Github",
+        //   fontAwesomeClassname: "fab fa-github-square"
+        // },
+        // {
+        //   skillName: "Firebase",
+        //   fontAwesomeClassname: "fas fa-fire"
+        // }
       ],
     },
     /**
@@ -98,44 +99,44 @@ const skillsSection = {
        title: "iOS Application Developer",
        subTitle: "",
        bullets: [
-         emoji("⚡ Swift Programming Language."),
-         emoji("⚡ Experience with UI Development using UIKit and/or SwiftUI"),
-         emoji("⚡ Handles concurrency using DispatchQueue, Task, Combine, and/or Async/Await framework."),
-         emoji("⚡ Writes code that adheres to Clean Code Architecture using modern MVVM."),
-         emoji("⚡ Knowledgeable with Alamofire and URLSession for REST API implementation."),
-         emoji("⚡ Extensive knowledge using Firebase SDK."),
-         emoji("⚡ Familiar with Test-Driven Development(TDD) using XCTest framework."),
+         emoji("➡️ Swift Programming Language."),
+         emoji("➡️ Experience with UI Development using UIKit and/or SwiftUI"),
+         emoji("➡️ Handles concurrency using DispatchQueue, Task, Combine, and/or Async/Await framework."),
+         emoji("➡️ Writes code that adheres to Clean Code Architecture using modern MVVM."),
+         emoji("➡️ Knowledgeable with Alamofire and URLSession for REST API implementation."),
+         emoji("➡️ Extensive knowledge using Firebase SDK."),
+         emoji("➡️ Familiar with Test-Driven Development(TDD) using XCTest framework."),
        ],
        /* Make Sure to include correct Font Awesome Classname to view your icon https://fontawesome.com/icons?d=gallery */
        softwareSkills: [
-         {
-           skillName: "iOS",
-           fontAwesomeClassname: "fab fa-apple"
-         },
-         {
-           skillName: "Swift",
-           fontAwesomeClassname: "fab fa-swift"
-         },
-         {
-           skillName: "UIKit",
-           fontAwesomeClassname: "fa-brands fa-uikit"
-         },
-         {
-           skillName: "SwiftUI",
-           fontAwesomeClassname: "fab fa-swift"
-         },
-         {
-           skillName: "Cocoapods",
-           fontAwesomeClassname: "fa-solid fa-c"
-         },
-         {
-           skillName: "Github",
-           fontAwesomeClassname: "fab fa-github-square"
-         },
-         {
-           skillName: "Firebase",
-           fontAwesomeClassname: "fas fa-fire"
-         }
+        //  {
+        //    skillName: "iOS",
+        //    fontAwesomeClassname: "fab fa-apple"
+        //  },
+        //  {
+        //    skillName: "Swift",
+        //    fontAwesomeClassname: "fab fa-swift"
+        //  },
+        //  {
+        //    skillName: "UIKit",
+        //    fontAwesomeClassname: "fab fa-apple"//"fa-brands fa-uikit"
+        //  },
+        //  {
+        //    skillName: "SwiftUI",
+        //    fontAwesomeClassname: "fab fa-swift"
+        //  },
+        //  {
+        //    skillName: "Cocoapods",
+        //    fontAwesomeClassname: "fab fa-apple"//"fa-solid fa-c"
+        //  },
+        //  {
+        //    skillName: "Github",
+        //    fontAwesomeClassname: "fab fa-github-square"
+        //  },
+        //  {
+        //    skillName: "Firebase",
+        //    fontAwesomeClassname: "fas fa-fire"
+        //  }
        ],
      },
   ],
@@ -195,11 +196,13 @@ const workExperiences = {
       descBullets: [
         "100% Kotlin source code",
         "Functional and Reactive Programming using Kotlin Coroutines and Flow",
-        "MVVM Clean Code Architecture - Using Coroutine StateFlow and SharedFlow to manage ViewState and Side-effects",
+        "MVVM Clean Code Architecture\n - Using Coroutine StateFlow and SharedFlow to manage ViewState and Side-effects",
         "Android Jetpack - Navigation, WorkManager, Room, Lifecycle, ViewModel",
-        "Firebase, GraphQL, Retrofit, OkHTTP, SocketIO, Cloudinary SDK",
-        "Dependency Injection: Koin 2.x",
-        "Test-Driven-Development: JUnit 4 with RoboElectric 4.x",
+        "Google Billing SDK and Google Ads Manager SDK",
+        "Firebase, GraphQL, Ktor(formerly using Retrofit), OkHTTP, SocketIO, Cloudinary SDK",
+        "Using Bitrise CI/CD as part of the software development pipeline to automate Android builds and app publish to Google Playstore",
+        "Dependency Injection: Koin 3.x",
+        "Test-Driven-Development: JUnit 4 with RoboElectric 4.x, Turbine",
       ]
     },
     // {
@@ -291,11 +294,23 @@ const openSource = {
 
 const bigProjects = {
   title: "Freelance Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "I worked with Sportstalk 24/7 and Social Network Fashion Media.",
   projects: [
     {
-      image: require("./assets/images/shift_logo.jpeg"),
-      projectName: "Shift Swim ~ IOS Application Developer",
+      image: require("./assets/images/shift_app_android.png"),
+      projectName: "Shift Swim - Android Application Developer",
+      projectDesc: "Pioneer developer of SHIFT SWIM Android app, a fashion app that showcases a bikini fashion channel where you can watch the latest designer creations, stunning bikinis modeled by the world's most beautiful women in exotic locations.",
+      footerLink: [
+        {
+          name: "Google Play(Work-in-Progress)",
+          url: "https://www.shiftswim.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/shift_app_ios.webp"),
+      projectName: "Shift Swim - IOS Application Developer",
       projectDesc: "One of pioneer contributors of SHIFT SWIM iOS app, a fashion app that showcases a bikini fashion channel where you can watch the latest designer creations, stunning bikinis modeled by the world's most beautiful women in exotic locations.",
       footerLink: [
         {
@@ -307,7 +322,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/sportstalk_logo.jpeg"),
-      projectName: "Sportstalk 24/7 ~ Android SDK Developer",
+      projectName: "Sportstalk 24/7 - Android SDK Developer",
       projectDesc: "Took part in the development of Sportstalk SDK which provides conversation solutions to the entertainment and sports industries. We enable high-profile brands to engage with customers, fans, and influencers to build loyalty while protecting brand interests and messaging.",
       footerLink: [
         {
@@ -339,7 +354,7 @@ const achievementSection = {
       ]
     },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
